@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <title>Home</title>
+   <!-- =============== VENDOR STYLES ===============-->
+   <!-- FONT AWESOME-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+   <!-- =============== BOOTSTRAP STYLES ===============-->
+   <link rel="stylesheet" href="css/bootstrap.css" id="bscss">
+   <!-- =============== APP STYLES ===============-->
+   <link rel="stylesheet" href="css/app.css" id="maincss">
+   <link rel="stylesheet" href="css/style.css" id="customcss">
+</head>
+
+<body class="layout-h">
+   <div class="wrapper">
+      <!-- top navbar-->
+      <header class="topnavbar-wrapper">
+         <!-- START Top Navbar-->
+         <nav role="navigation" class="navbar topnavbar">
+            <!-- START navbar header-->
+            <div class="navbar-header">
+              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a href="#/" class="navbar-brand">
+                  <div class="brand-logo">
+                     <img src="img/logo.png" alt="App Logo" class="img-responsive">
+                  </div>
+                  <div class="brand-logo-collapsed">
+                     <img src="img/logo-single.png" alt="App Logo" class="img-responsive">
+                  </div>
+               </a>
+            </div>
+            <!-- END navbar header-->
+            <!-- START Nav wrapper-->
+            <div class="nav-wrapper">
+              <div class="navbar-collapse collapse">
+                 <!-- START Left navbar-->
+                 <ul class="nav navbar-nav">
+                   <li>
+                     <a href="#">
+                       <i class="fa fa-home"></i> Home
+                     </a>
+                   </li>
+                   <li>
+                     <a href="#">
+                       <i class="fa fa-user"></i> View Tenants
+                     </a>
+                   </li>
+                   <li>
+                     <a href="#">
+                       <i class="fa fa-user-plus"></i> Create Tenants
+                     </a>
+                   </li>
+                 </ul>
+                 <!-- END Left navbar-->
+                 <!-- START Right Navbar-->
+                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a class="pull-right">Bashudev Paudel</a>
+                    </li>
+                    <!-- START Alert menu-->
+                    <li class="dropdown dropdown-list pull-left">
+                      <a href="#" data-toggle="dropdown">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <img src="http://rs775.pbsrc.com/albums/yy35/PhoenyxStar/link-1.jpg~c200" alt="Avatar" class="img img-responsive img-circle pull-left" height="45" width="45" style="margin: -11px">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down"></i>
+                          </div>
+                        </div>
+                      </a>
+                       <!-- START Dropdown menu-->
+                       <ul class="dropdown-menu animated flipInX">
+                          <li>
+                             <!-- START list group-->
+                             <div class="list-group">
+                                <!-- list item-->
+                                <a href="#" class="list-group-item">
+                                   <div class="media-box">
+                                      <div class="pull-left">
+                                         <em class="fa fa-twitter fa-2x text-info"></em>
+                                      </div>
+                                      <div class="media-box-body clearfix">
+                                         <p class="m0">New followers</p>
+                                         <p class="m0 text-muted">
+                                            <small>1 new follower</small>
+                                         </p>
+                                      </div>
+                                   </div>
+                                </a>
+                             </div>
+                             <!-- END list group-->
+                          </li>
+                       </ul>
+                       <!-- END Dropdown menu-->
+                    </li>
+                    <!-- END Alert menu-->
+                 </ul>
+                 <!-- END Right Navbar-->
+               </div>
+            </div>
+            <!-- END Nav wrapper-->
+         </nav>
+         <!-- END Top Navbar-->
+      </header>
+      <!-- Main section-->
+      <section>
+         <!-- Page content-->
+         <div class="content-wrapper">
+           <div class="row">
+             <div class="col-md-8">
+               <div class="form-group">
+                 <div class="input-group">
+                   <input class="form-control" type="text" placeholder="Search">
+                      <span class="input-group-btn">
+                       <button type="button" class="btn btn-info">SEARCH <i class="fa fa-search"></i></button>
+                      </span>
+                   </div>
+                </div>
+             </div>
+             <div class="col-md-1">
+               <div class="pull-right">
+                  <div class="btn-group">
+                     <button type="button" data-toggle="dropdown" class="btn btn-default" aria-expanded="false">Filter <i class="fa fa-filter text-muted"></i></button>
+                     <ul role="menu" class="dropdown-menu dropdown-menu-right animated fadeInUpShort">
+                        <li><a href="#" data-set-lang="en">English</a>
+                        </li>
+                        <li><a href="#" data-set-lang="es">Spanish</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+             </div>
+             <div class="col-md-3">
+               <a href="#" class="pull-right btn btn-info"><i class="fa fa-user-plus"></i> Add New Tenant</a>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-md-12">
+               <table class="table data-table">
+                  <thead>
+                    <tr>
+                      <th> </th>
+                      <th>
+                        <span class="text-muted">CUSTOMER</span>
+                      </th>
+                      <th>
+                        <span class="text-muted">CUSTOMER</span>
+                      </th>
+                      <th>
+                        <span class="text-muted pull-right">SHOW DETAILS</span>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+
+                      </td>
+                      <td>
+                        <div class="col-md-2 text-center">
+                          <img src="img/user/06.jpg" alt="Bashu" class="img img-responsive img-circle">
+                        </div>
+                        <div class="col-md-10 text-center">
+                          <span class="pull-left" style="margin-top:5%">Bashudev Paudel</span>
+                        </div>
+                      </td>
+                      <td>
+                        2087-04-30
+                      </td>
+                      <td>
+                        <i class="fa fa-info-circle" style="color:blue"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+               </table>
+             </div>
+           </div>
+         </div>
+      </section>
+      <!-- Page footer-->
+      <footer>
+         <span>&copy; 2016 - Angle</span>
+      </footer>
+   </div>
+   <!-- =============== VENDOR SCRIPTS ===============-->
+   <!-- MODERNIZR-->
+   <script src="../vendor/modernizr/modernizr.custom.js"></script>
+   <!-- MATCHMEDIA POLYFILL-->
+   <script src="../vendor/matchMedia/matchMedia.js"></script>
+   <!-- JQUERY-->
+   <script src="../vendor/jquery/dist/jquery.js"></script>
+   <!-- BOOTSTRAP-->
+   <script src="../vendor/bootstrap/dist/js/bootstrap.js"></script>
+   <!-- STORAGE API-->
+   <script src="../vendor/jQuery-Storage-API/jquery.storageapi.js"></script>
+   <!-- JQUERY EASING-->
+   <script src="../vendor/jquery.easing/js/jquery.easing.js"></script>
+   <!-- ANIMO-->
+   <script src="../vendor/animo.js/animo.js"></script>
+   <!-- SLIMSCROLL-->
+   <script src="../vendor/slimScroll/jquery.slimscroll.min.js"></script>
+   <!-- SCREENFULL-->
+   <script src="../vendor/screenfull/dist/screenfull.js"></script>
+   <!-- LOCALIZE-->
+   <script src="../vendor/jquery-localize-i18n/dist/jquery.localize.js"></script>
+   <!-- RTL demo-->
+   <script src="js/demo/demo-rtl.js"></script>
+   <!-- =============== PAGE VENDOR SCRIPTS ===============-->
+   <!-- =============== APP SCRIPTS ===============-->
+   <script src="js/app.js"></script>
+</body>
+
+</html>
